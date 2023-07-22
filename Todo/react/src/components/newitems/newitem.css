@@ -1,0 +1,115 @@
+.newitem{
+    min-height: 60px;
+    padding: 30px;
+    background-color: azure;
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    box-shadow: 0px 7px 20px rgb(131, 131, 131);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.newcheckbox{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    border: 1px solid brown;
+    margin-right: 20px;
+    border-radius: 4px;
+    opacity: 0.5;
+    margin-top: 10px; 
+}
+.itemtext{
+    border: none;
+    text-align: center;
+    padding-left: 3px;
+    color: blue;
+    width: 500px;
+    height: 40px;
+    font-weight: 700;
+    font-size: larger;
+    border-bottom: 2px solid rgb(126, 126, 247);
+    font-weight: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.itemtext:focus{
+    outline: none;
+}
+
+.btn-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn-container button{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.btn-container .save{
+    color: rgb(0, 34, 255);
+    background-color: rgb(197, 197, 176);
+   
+}
+
+.btn-container .clear{
+    color: rgb(236, 236, 240);
+    background-color: rgb(141, 130, 127);
+    
+}
+
+
+.badger{
+    display: flex; 
+    margin-top: 30px;
+    gap: 20px;
+    width: 150px;
+    align-items: center;
+}
+
+.badger-1{
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(237, 165, 165);
+    color: red;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+.badger-1:focus {
+    outline: 2px solid rgb(255, 0, 0);
+  }
+.badger-2{
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(160, 160, 113);
+    color: yellow;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.badger-2:focus {
+    outline: 2px solid rgb(255, 234, 0);
+  }
+.badger-3{
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(185, 244, 244);
+    color: rgb(2, 255, 82);
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.badger-3:focus {
+    outline: 2px solid rgb(60, 255, 0);
+  }

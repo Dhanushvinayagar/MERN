@@ -1,0 +1,23 @@
+.navbar{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+.container{
+    padding-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.one{
+    background-color: brown;
+    border-radius: 4px;  
+    width: 30%;
+}
+.two{
+    background-color: darkcyan;
+    border-radius: 4px;
+    width: 70%;
+}

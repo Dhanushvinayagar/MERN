@@ -1,0 +1,15 @@
+.todolist{
+    background-color: rgb(201, 189, 189);
+    padding: 10px;
+}
+
+.no-items{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    background-color: rgb(219, 219, 219);
+}

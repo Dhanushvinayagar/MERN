@@ -1,0 +1,17 @@
+
+#root{
+  background-color: #f3e3e3;
+  height: 100vh;
+}
+html,body,h1{
+  margin: 0;
+}
+.app{
+  padding: 60px;
+  max-width: 630px;
+  margin: 0  auto;
+}
+.container{
+  text-align: center;
+  margin-bottom: 6px; 
+}
