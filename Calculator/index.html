@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="index.css" />
+
+    <style>
+            h1{
+                background-color: rgb(73, 158, 255);
+            }
+            h3{
+                text-align:inherit;
+                color: rgb(64, 78, 14);
+            }
+            input{
+                padding-right: 10em; 
+                background-color: black;
+                color: lavender;
+            }
+            button{
+                position:relative;
+                bottom: 1px;
+                margin: 20px;
+                color: lavender;
+                background-color: black;
+            }
+            h6{
+                font-size: xx-large;
+                color: crimson;
+                text-decoration: solid;
+            }
+            h5{
+                color: firebrick;
+                font-size: xx-large;
+            }
+            .question{
+                border: 2px solid rgb(61, 61, 126);
+            }
+            .answer{
+                border: 2px solid rgb(255, 107, 107);
+            }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Calculator app
+
+    </h1>
+    <div class="question">
+    <h3>
+        Enter the a (+,-,*,/,%) b operation:
+    </h3>
+   
+    <input type="text" id="cal" />
+
+    <button type="button" onclick="msg(document.getElementById('cal').value)">Calculate</button>
+    </div>
+    <div class="answer">
+    <h6>
+        Answer:
+    </h6>
+    <h5 id="array">
+
+    </h5>
+    <h5 style="border: 2px solid rgb(83, 230, 241);" id="ans">
+      
+    </h5>
+</div>
+    <script type="text/javascript" src="index.js">
+        </script>
+</body>
+</html>
