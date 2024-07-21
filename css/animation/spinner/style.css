@@ -1,0 +1,31 @@
+*{
+    margin:0;
+}
+.container{
+    background-color: grey;
+    height: 100vw;
+}
+.spinner{
+    background-color: rgb(255, 255, 255);
+    height: 1vw;
+    width: 1vw;
+    padding: 1rem;
+    position: relative;
+    left: 50%;
+    border: 5px solid rgb(81, 20, 223);
+    border-top: 5px solid rgb(34, 237, 252);
+    border-radius: 50%;
+    animation: rotate .8s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
